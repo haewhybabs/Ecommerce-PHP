@@ -1,0 +1,579 @@
+
+<!DOCTYPE html>
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en" class=""><!--<![endif]-->
+
+<!-- Mirrored from premiumlayers.net/demo/html/maxshop/index2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 17 Oct 2018 16:22:19 GMT -->
+<head>
+	<meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+	<title>Natures Rejuvenate</title>
+
+	<script src="css/assets/jscript.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/assets/main.style.css">
+	<script src="css/assets/js_script.js" type="text/javascript"></script>
+	<script src="css/assets/main.script.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="css/assets/style.css">
+
+	<script src="js/dna.core.js" type="text/javascript"></script>
+	<script src="js/dna.scroll.core.js" type="text/javascript"></script>
+	<script src="js/dna.scroll.scrolldown.js" type="text/javascript"></script>
+	<!-- <script src="js/dna.topmenu.js" type="text/javascript"></script> -->
+
+	<!-- Standard Favicon -->
+	<link rel="icon" type="image/x-icon" href="images/fav.ico" />
+	
+	<!-- For iPhone 4 Retina display: -->
+	<link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-114x114-precomposed.png">
+	
+	<!-- For iPad: -->
+	<link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-72x72-precomposed.html">
+	
+	<!-- For iPhone: -->
+	<link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-57x57-precomposed.png">	
+	
+	<!-- Library - Google Font Familys -->
+	<link href="https://fonts.googleapis.com/css?family=Arizonia|Crimson+Text:400,400i,600,600i,700,700i|Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
+ 
+	<!-- RS5.0 Layers and Navigation Styles -->
+	<link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
+	<link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+	
+	<!-- Library - Bootstrap v3.3.5 -->
+	<link rel="stylesheet" type="text/css" href="libraries/lib.css">
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+	
+	<!-- Custom - Common CSS -->
+	<link rel="stylesheet" type="text/css" href="css/plugins.css">			
+	<link rel="stylesheet" type="text/css" href="css/navigation-menu.css">
+	<link rel="stylesheet" type="text/css" href="css/shortcode.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--[if lt IE 9]>
+		<script src="js/html5/respond.min.js"></script>
+    <![endif]-->
+	
+</head>
+
+<body data-offset="200" data-spy="scroll" data-target=".ow-navigation">
+
+	<!-- Modal -->
+	<div class="modal fade bs-modal-sm log-sign" id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-sm">
+			<div class="modal-content">
+				
+				<div class="bs-example bs-example-tabs">
+					<ul id="myTab" class="nav nav-tabs">
+						<li id="tab1" class=" active tab-style login-shadow "><a href="#signin" data-toggle="tab">Log In</a></li>
+						<li id="tab2" class=" tab-style "><a href="#signup" data-toggle="tab">Sign Up</a></li>
+					</ul>
+				</div>
+
+				<div class="modal-body">
+					<div id="myTabContent" class="tab-content">
+					
+						<div class="tab-pane fade active in" id="signin">
+							<form class="form-horizontal">
+								<fieldset>
+									<!-- Sign In Form -->
+									<!-- Text input-->
+									
+									<div class="group">
+										<input required="" class="input" type="text"><span class="highlight"></span><span class="bar"></span>
+										<label class="label" for="date">Email address</label>
+									</div>
+									
+									
+									<!-- Password input-->
+									<div class="group">
+										<input required="" class="input" type="password"><span class="highlight"></span><span class="bar"></span>
+										<label class="label" for="date">Password</label>
+									</div>
+									<em>minimum 6 characters</em>
+
+									<div class="forgot-link">
+										<a href="#forgot" data-toggle="modal" data-target="#forgot-password"> I forgot my password</a>
+									</div>
+									
+
+									<!-- Button -->
+									<div class="control-group">
+										<label class="control-label" for="signin"></label>
+										<div class="controls">
+											<button id="signin" name="signin" class="btn btn-primary btn-block">Log In</button>
+										</div>
+									</div>
+								</fieldset>
+							</form>
+						</div>
+						
+						
+						<div class="tab-pane fade" id="signup">
+							<form class="form-horizontal">
+								<fieldset>
+									<!-- Sign Up Form -->
+									<!-- Text input-->
+									<div class="group">
+										<input required="" class="input" type="text"><span class="highlight"></span><span class="bar"></span>
+										<label class="label" for="date">First Name</label>
+									</div>
+									
+									<!-- Text input-->
+									<div class="group">
+										<input required="" class="input" type="text"><span class="highlight"></span><span class="bar"></span>
+										<label class="label" for="date">Last Name</label>
+									</div>
+									
+									<!-- Password input-->
+									<div class="group">
+										<input required="" class="input" type="text"><span class="highlight"></span><span class="bar"></span>
+										<label class="label" for="date">Email</label>
+									</div>
+									
+									<!-- Text input-->
+									<div class="group">
+										<input required="" class="input" type="password"><span class="highlight"></span><span class="bar"></span>
+										<label class="label" for="date">Password</label>
+									</div>
+									<em>1-8 Characters</em>
+									
+									<div class="group2">
+										<input required="" class="input" type="text"><span class="highlight"></span><span class="bar"></span>
+										<label class="label" for="date">Country</label>
+									</div>
+								
+									<!-- Button -->
+									<div class="control-group">
+										<label class="control-label" for="confirmsignup"></label>
+										<div class="controls">
+											<button id="confirmsignup" name="confirmsignup" class="btn btn-primary btn-block">Sign Up</button>
+										</div>
+									</div>
+								</fieldset>
+							</form>
+						</div>
+					</div>
+				</div>
+			<!--<div class="modal-footer">
+			<center>
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</center>
+			</div>-->
+			</div>
+		</div>
+	</div>
+	
+	<!--modal2-->
+	<div class="modal fade bs-modal-sm" id="forgot-password" tabindex="0" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-sm">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Password will be sent to your email</h4>
+				</div>
+
+				<div class="modal-body">
+					<form class="form-horizontal">
+						<fieldset>
+							<div class="group">
+								<input required="" class="input" type="text">
+								<span class="highlight"></span><span class="bar"></span>
+								<label class="label" for="date">Email address</label>
+							</div>
+						
+						
+							<div class="control-group">
+								<label class="control-label" for="forpassword"></label>
+								<div class="controls">
+									<button id="forpasswodr" name="forpassword" class="btn btn-primary btn-block">Send</button>
+								</div>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+	<div class="main-container">
+		<!-- Loader -->
+		<div id="site-loader" class="load-complete">
+			<div class="loader">
+				<div class="loader-inner ball-clip-rotate">
+					<div></div>
+				</div>
+			</div>
+		</div><!-- Loader /- -->	
+		
+		<!-- Header -->
+		<header class="header-section header-section-1 container-fluid no-padding">
+			<!-- Top Header -->
+			<div class="top-header container-fluid no-padding">
+				<!-- Container -->
+				<div class="container">
+					<div class="col-md-7 col-sm-7 col-xs-7 dropdown-bar">
+						<h5>Welcome To Natures Rejuvenate</h5>
+						<div class="language-dropdown dropdown">
+							<label>English</label>
+							<!-- <ul class="dropdown-menu no-padding">
+								<li><a title="Danish" href="#">Danish</a></li>
+							</ul> -->
+						</div>
+						<div class="language-dropdown dropdown">
+							<button aria-expanded="true" aria-haspopup="true" data-toggle="dropdown" title="currency" id="currency" type="button" class="btn dropdown-toggle">USD<span class="caret"></span></button>
+							<ul class="dropdown-menu no-padding">
+								<!-- <li><a title="Danish" href="#">NGN</a></li> -->
+								<!-- <li><a title="Danish" href="#">USD</a></li> -->
+							</ul>
+						</div>
+					</div>
+					<!-- Social -->
+					<div class="col-md-5 col-sm-5 col-xs-5 header-social"> 
+						<ul>
+							<li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+						</ul>
+					</div><!-- Social /- -->
+				</div><!-- Container /- -->
+			</div><!-- Top Header /- -->
+			
+			<!-- Middel Header -->
+			<div class="middel-header">
+				<!-- Container -->
+				<div class="container">
+					<!-- Logo Block -->
+					<div class="col-md-4 col-sm-6 col-xs-12 logo-block">
+						<a href="index.html" class="navbar-brand">
+							<img src="/images/_logo.png">
+						</a>
+					</div><!-- Logo Block /- -->
+
+					<!-- Cart and User Account Block -->
+
+					<!-- Search Block -->
+					<!-- <div class="col-md-5 col-sm-6 col-xs-6 search-block">
+						<div class="input-group">
+							<input class="form-control" placeholder="Search naturesrejuvenate.com for products and services" type="text">
+							<span class="input-group-btn">
+								<button class="btn btn-default" type="button"><i class="icon icon-Search"></i></button>
+							</span>
+						</div>
+					</div> -->
+					<!-- Search Block /- -->
+					<!-- Menu Icon -->
+					<div class="grid col-md-3 col-sm-6 col-xs-6 menu-icon">
+						<ul class="cart">
+							<li>
+								<a class="_cart" href="#" title="Check Out">
+									<ion-icon name="cart"></ion-icon>
+									<span class="cart_notify">
+										<span class="cart_count_value">0</span>
+									</span>
+								</a>
+							</li>
+							<li>
+								<button href="#" title="User" class="u_account" href="#signup" data-toggle="modal" data-target=".log-sign">
+									<span>
+										<ion-icon name="contact"></ion-icon>
+									</span>
+
+									<span class="span">
+										My Account
+									</span>
+								</button>
+							</li>
+						</ul>
+					</div>
+					<!-- Menu Icon /- -->
+				</div><!-- Container /- -->
+			</div><!-- Middel Header /- -->
+			
+			<!-- Menu Block -->
+			<div class="container-fluid no-padding menu-block">
+				<!-- Container -->
+				<div class="container">
+					<!-- nav -->
+					<nav class="navbar navbar-default ow-navigation">
+						<div class="navbar-header">
+							<button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a href="index.html" class="navbar-brand">
+								<img src="/images/logo_mobile.png">
+							</a>
+						</div>
+						<div class="navbar-collapse collapse" id="navbar">
+							<ul class="nav navbar-nav">
+								<li class="active dropdown">
+									<a href="#" title="Home" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
+									<i class="ddl-switch fa fa-angle-down"></i>
+									<ul class="dropdown-menu">				
+										<li><a href="index.html" title="home 1">home 1</a></li>
+										<li><a href="index2.html" title="home 2">home 2</a></li>
+									</ul>
+								</li>
+								<!-- <li class="dropdown">
+									<a href="#" title="Home" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Categories </a>
+									<i class="ddl-switch fa fa-angle-down"></i>
+									<ul class="dropdown-menu">				
+										<li><a href="cart.html" title="Cart">Cart</a></li>
+										<li><a href="checkout.html" title="Checkout">Checkout</a></li>
+										<li><a href="404.html" title="404">404</a></li>
+									</ul>
+								</li> -->
+								<!-- <li><a href="#product-section" title="Products">Products</a></li> -->
+								<li class="dropdown">
+									<a href="shop.html" title="Shop" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
+									<i class="ddl-switch fa fa-angle-down"></i>
+									<ul class="dropdown-menu">				
+										<li><a href="shop-single.html" title="Shop Single">Shop Single</a></li>
+									</ul>
+								</li>
+								<li><a href="about.html" title="About Us">About Us</a></li>
+								<li><a href="contact-us.html" title="Contact Us">Contact</a></li>
+								
+								<!-- <li class="dropdown">
+									<a href="blog.html" title="Blog" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+									<i class="ddl-switch fa fa-angle-down"></i>
+									<ul class="dropdown-menu">				
+										<li><a href="blog-post.html" title="Blog Post">Blog Post</a></li>
+									</ul>
+								</li> -->
+								<li>
+									<a class="_cart" data-scrolldown-class="cart-appear" href="#" title="Check Out">
+										<ion-icon name="cart"></ion-icon>
+										<span class="cart_notify">
+											<span class="cart_count_value">0</span>
+										</span>
+									</a>
+								</li>
+							</ul>
+						</div><!--/.nav-collapse -->
+					</nav><!-- nav /- -->
+				</div><!-- Container /- -->
+			</div><!-- Menu Block /- -->
+		</header><!-- Header /- -->
+        
+        <!-- Page main content - shipping infomation -->
+		<main class="sh_info_main_page_content">
+			<!-- Section -->
+			<section class="sh_info_page_main_section">
+				<div class="grid-wrapper">
+					<div class="grid">
+						<!-- Shipping Information -->
+						<div class="col sh_info_section">
+							<!-- Form container -->
+							<div class="sh-form-container">
+
+								<h4>Please, provide your shipping details below</h4>
+
+								<form class="l-row form" id="user-shipping-info" data-action="/?0.5117423124760409" action="/?0.5117423124760409" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="r4qCmGt5DlKXpn3sWSIW3lqjF3nrdanMDjRsJyOZx0NZlxHEH7wcKSkPOG1A1dPPesq0HztWFKvz07lRoEOr4g==">
+							
+									<!-- Full Name -->
+									<div class="form-group">
+										<label class="form-label" for="user_first_name">Name</label>
+										<input autofocus="autofocus" required="required" class="form-input form-control" maxlength="25" size="25" type="text" name="user[first_name]" id="user_first_name">
+									</div>
+	
+									<!-- Mobile Number -->
+									<div class="l-lg-12 form-group">
+										<label class="form-label" for="user_email">Mobile Number</label>
+										<input required="required" class="form-input form-control" type="number" value="" name="user[email]" id="user_email">
+									</div>
+	
+									<!-- Country -->
+									<div class="l-lg-6 form-group">
+										<label class="form-label" for="user_first_name">Country</label>
+										<input autofocus="autofocus" required="required" class="form-input form-control" maxlength="25" size="25" type="text" name="user[first_name]" id="user_first_name">
+									</div>
+	
+									<!-- Zip Code -->
+									<div class="l-lg-6 form-group">
+										<label class="form-label" for="user_first_name">Zip Code</label>
+										<input autofocus="autofocus" required="required" class="form-input form-control" maxlength="25" size="25" type="text" name="user[first_name]" id="user_first_name">
+									</div>
+									
+									<div class="ac-btn-container form-group">
+										<button class="btn btn-primary">
+											Proceed To Payment
+										</button>
+									</div>
+	
+									<small class="l-lg-12 form-description text-center">
+										Please ensure that you agree to our <a href="/terms-of-service/" rel="nofollow" target="_blank">Terms of Service</a> and <a href="/privacy-policy/" rel="nofollow" target="_blank">Privacy Policy</a>
+									</small>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+        </main>
+
+		<!-- Footer Main 1 -->
+		<footer id="footer-main" class="footer-main footer-main-1 services-section container-fluid">
+                <!-- Container -->
+                <div class="container">
+                    <!-- <div class="services-item">
+                        <div class="col-md-4 col-sm-6 col-xs-6">
+                            <div class="srv-box">
+                                <i class="icon icon-Truck"></i><h5>Free delivery</h5><i class="icon icon-Dollar"></i>
+                                <span class="icon_close"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-6">
+                            <div class="srv-box">
+                                <i class="icon icon-Goto"></i><h5>Money Back</h5><i class="icon icon-Dollars"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-6">
+                            <div class="srv-box">
+                                <i class="icon icon-Headset"></i><h5>24/7 support</h5><i class="icon icon-Timer"></i>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- Widget About -->
+                    <!-- <aside class="col-md-3 col-sm-6 col-xs-6 ftr-widget widget_about">
+                        <a href="index.html" title="Max Shop">
+                            <img src="/images/_logo.png">
+                        </a>
+                        <p>On the most sensational inspirational celbrational Muppetational... This is what we call Show. I have always wanted to have a neighbor just like you.</p>
+                        <ul class="social">
+                            <li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#" title="Tumblr"><i class="fa fa-tumblr"></i></a></li>
+                            <li><a href="#" title="Vimeo"><i class="fa fa-vimeo"></i></a></li>
+                        </ul>
+                    </aside> -->
+                    <!-- Widget About /- -->
+                    <!-- Widget Links -->
+                    <aside class="col-md-2 col-sm-6 col-xs-6 ftr-widget widget_links">
+                        <h3 class="widget-title">About Us</h3>
+                        <ul>
+                            <li><a href="#product-section" title="Popular Products">Products</a></li>
+                            <li><a href="#selling" title="Best Selling">Services</a></li>
+                            <li><a href="about.html" title="About Us">Company</a></li>
+                            <li><a href="contact-us.html" title="Contact Us">Contact Us</a></li>
+                        </ul>
+                    </aside><!-- Widget Links /- -->
+                    <!-- Widget Account -->
+                    <aside class="col-md-3 col-sm-6 col-xs-6 ftr-widget widget_links widget_account">
+                        <h3 class="widget-title">My Account</h3>
+                        <ul>
+                            <li><a href="#" title="Order Details">Orders</a></li>
+                            <li><a href="#" title="Blog Posts">Posts</a></li>
+                            <li><a href="#" title="addresses">Delivery Information</a></li>
+                            <li><a href="#" title="Account Details">My Account Details</a></li>
+                        </ul>
+                    </aside><!-- Widget Account /- -->
+                    <!-- Widget Gallery -->
+                    <aside class="col-md-4 col-sm-6 col-xs-6 ftr-widget widget_gallery">
+                        <h3 class="widget-title">Contact Us</h3>
+                        <!-- The footer form -->
+                        <div role="form" class="footer_form_wrapper" id="" lang="en-US">
+                            <div class="screen-reader-response"></div>
+                            <form>
+                                <div style="display: none;">
+                                    <input type="hidden">
+                                    <input type="hidden">
+                                    <input type="hidden">
+                                    <input type="hidden">
+                                    <input type="hidden">
+                                </div>
+                                <div class="form_wrap">
+                                    <div class="grid">
+                                        <span class="name right">
+                                            <span class="e_1">
+                                                <input type="text" name="text-552" value="" size="40" class="" placeholder="Name">
+                                            </span>
+                                        </span>
+                                        <span>
+                                            <span class="name e_1">
+                                                <input type="email" name="email-9" value="" size="40" placeholder="Email">
+                                            </span>
+                                        </span> 
+                                    </div>
+                                    <div class="grid">
+                                        <span class="phone_no right">
+                                            <span class="e_2">
+                                                <input type="text" name="text-58" value="" size="40" class="" placeholder="Phone Number">
+                                            </span>
+                                        </span>
+                                        <span>
+                                            <span class="text e_3">
+                                                <textarea name="textarea-399" cols="40" rows="3" class="" placeholder="Message"></textarea>
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <div class="form-group submit"> <span>    <input type="submit" value="SUBMIT NOW" class="">    </span> </div>
+                                </div>
+                                <div class="wpcf7-display-none"></div>
+                                <p style="display: none !important">
+                                    <span class="wpcf7-form-control-wrap referer-page">
+                                        <input type="hidden" name="referer-page" value="https://www.naturestruthproducts.com/" class="">
+                                    </span>
+                                </p>
+                                <!-- Chimpmail extension by Renzo Johnson -->
+                            </form>
+                        </div>
+                    </aside><!-- Widget Gallery -->
+                    <div class="copyright-section">
+                        <div class="coyright-content">
+                            <p>&copy; 2018 Natures Rejuvenate. All rights reserved</p>
+                        </div>	
+                        <ul>
+                            <li><a href="#" title="Privacy Policy">Privacy Policy</a></li>
+                            <li><a href="#" title="Terms & Condition">Terms & Condition</a></li>
+                        </ul>
+                    </div>
+                </div><!-- Container /- -->
+            </footer><!-- Footer Main 1 -->
+    
+        </div>
+        
+        <!-- JQuery v1.12.4 -->
+        <!-- <script src="js/jquery.min.js"></script> -->
+    
+        <!-- Library - Js -->
+        <script src="libraries/lib.js"></script>
+        
+        <script src="libraries/jquery.countdown.min.js"></script>
+        
+        <!-- RS5.0 Core JS Files -->
+        <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min838f.js?rev=5.0"></script>
+        <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min838f.js?rev=5.0"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+        <!-- <script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script> -->
+        
+        <!-- Library - Google Map API -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDW40y4kdsjsz714OVTvrw7woVCpD8EbLE"></script>
+    
+        <!-- Library - Theme JS -->
+        <script src="js/functions.js"></script>
+        <script src="js/slider.js"></script>
+        <script src="js/tab_toggle.js"></script>
+        <script src="https://unpkg.com/ionicons@4.4.6/dist/ionicons.js"></script>
+    </body>
+    
+    <!-- Mirrored from premiumlayers.net/demo/html/maxshop/index2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 17 Oct 2018 16:22:58 GMT -->
+    </html>
+        
